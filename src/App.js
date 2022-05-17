@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Web2Game from './Components/Web2Game';
+import Web2Point5Game from './Components/Web2Point5Game';
+import Web3Game from './Components/Web3Game';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Web2Game welcomeMessage="Hello Player" /> */}
+        {/* <Web2Point5Game /> */}
+        <Web3Game />
       </header>
     </div>
   );
